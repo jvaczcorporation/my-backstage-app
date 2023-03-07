@@ -1,7 +1,11 @@
 import 'dart:convert';
 
-import 'package:flutter_ioasys_backstage/app/modules/example/data/datasources/example_datasource.dart';
-import 'package:flutter_ioasys_backstage/app/modules/example/data/models/example_model.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/data/datasources/example_datasource.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/data/models/example_model.dart';
 
 class ExampleDatasourceImpl implements ExampleDatasource {
   //Injection Remote Package (Firestore, HttpAdater, ...)

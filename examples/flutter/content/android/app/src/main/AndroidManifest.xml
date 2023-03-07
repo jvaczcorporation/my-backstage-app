@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.flutter_ioasys_backstage">
+    package="com.example.${{ values.name }}">
    <application
-        android:label="flutter_ioasys_backstage"
+        android:label="${{ values.name }}"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -1,6 +1,6 @@
 {
-    "name": "flutter_ioasys_backstage",
-    "short_name": "flutter_ioasys_backstage",
+    "name": "${{ values.name }}",
+    "short_name": "${{ values.name }}",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

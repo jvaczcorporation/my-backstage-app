@@ -1,5 +1,9 @@
-import 'package:flutter_ioasys_backstage/app/modules/example/domain/use_cases/get_examples_use_case.dart';
-import 'package:flutter_ioasys_backstage/app/modules/example/presentation/example_store.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/domain/use_cases/get_examples_use_case.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/presentation/example_store.dart';
 
 class ExampleController {
   final ExampleStore store;

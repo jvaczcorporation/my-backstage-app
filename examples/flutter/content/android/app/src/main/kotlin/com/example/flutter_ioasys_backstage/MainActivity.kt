@@ -1,4 +1,4 @@
-package com.example.flutter_ioasys_backstage
+package com.example.${{ values.name }}
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -1,4 +1,4 @@
-import 'package:flutter_ioasys_backstage/app/commons/domain/enums/store_states.dart';
+import 'package:${{values.name}}/app/commons/domain/enums/store_state.dart';
 import 'package:get/get.dart';
 
 abstract class StateStore<T> {

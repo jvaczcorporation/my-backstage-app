@@ -1,4 +1,4 @@
-flutter_ioasys_backstage
+${{ values.name }}
 2.18
 file:///Users/joaovitoralves/Projetos/backstage/my-backstage-app/examples/flutter/content/
 file:///Users/joaovitoralves/Projetos/backstage/my-backstage-app/examples/flutter/content/lib/

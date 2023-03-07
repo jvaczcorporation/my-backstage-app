@@ -1,9 +1,21 @@
-import 'package:flutter_ioasys_backstage/app/modules/example/data/repositories/example_repository_impl.dart';
-import 'package:flutter_ioasys_backstage/app/modules/example/domain/use_cases/get_examples_use_case.dart';
-import 'package:flutter_ioasys_backstage/app/modules/example/infra/remote/example_datasource_impl.dart';
-import 'package:flutter_ioasys_backstage/app/modules/example/presentation/example_controller.dart';
-import 'package:flutter_ioasys_backstage/app/modules/example/presentation/example_page.dart';
-import 'package:flutter_ioasys_backstage/app/modules/example/presentation/example_store.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/data/repositories/example_repository_impl.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/domain/use_cases/get_examples_use_case.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/infra/remote/example_datasource_impl.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/presentation/example_controller.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/presentation/example_page.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/presentation/example_store.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class ExampleModule extends Module {

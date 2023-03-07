@@ -1,5 +1,9 @@
-import 'package:flutter_ioasys_backstage/app/modules/example/data/models/example_model.dart';
-import 'package:flutter_ioasys_backstage/app/modules/example/domain/entities/example_entity.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/data/models/example_model.dart';
+import 'package:${{
+  values.name
+}}/app/modules/example/domain/entities/example_entity.dart';
 
 class ExampleMapper {
   static ExampleEntity toEntity(ExampleModel model) => ExampleEntity(

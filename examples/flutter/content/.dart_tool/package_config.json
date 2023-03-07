@@ -452,7 +452,7 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "flutter_ioasys_backstage",
+      "name": "${{ values.name }}",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.18"
